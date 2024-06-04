@@ -1,4 +1,5 @@
 import React from "react";
+import pic from "../../assets/pics/about-img.62b47e7f183d4b4e9feb.webp";
 
 export const About = () => {
   return (
@@ -6,11 +7,7 @@ export const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="img-side">
-            <img
-              src="src\assets\pics\about-img.62b47e7f183d4b4e9feb.webp"
-              alt="mee"
-              className="img-side__main-img"
-            />
+            <img src={pic} alt="mee" className="img-side__main-img" />
           </div>
           <div className="text-side">
             <h3>About Me</h3>
