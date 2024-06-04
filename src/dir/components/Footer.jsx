@@ -5,10 +5,10 @@ export const Footer = () => {
   return (
     <>
       <footer>
-        <div class="container">
-          <div class="footerc">
+        <div className="container">
+          <div className="footerc">
             <h3>Copyright © 2024. All rights are reserved</h3>
-            <div class="footerc__socials">
+            <div className="footerc__socials">
               <a
                 aria-label="linkedin"
                 target="_blank"

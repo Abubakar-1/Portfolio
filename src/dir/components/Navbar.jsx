@@ -16,19 +16,19 @@ export const Navbar = () => {
             <IconX height={30} width={30} />
           </span>
           <ul className="mobile-nav-links">
-            <li>
+            <li onClick={openNav}>
               {" "}
               <a href="#home">Home</a>
             </li>
-            <li>
+            <li onClick={openNav}>
               {" "}
               <a href="#about">About</a>
             </li>
-            <li>
+            <li onClick={openNav}>
               {" "}
               <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li onClick={openNav}>
               {" "}
               <a href="#contact">Contact</a>
             </li>
