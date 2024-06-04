@@ -7,7 +7,7 @@ export const Footer = () => {
       <footer>
         <div className="container">
           <div className="footerc">
-            <h3>Copyright © 2024. All rights are reserved</h3>
+            <h3>© 2024. All rights reserved. Inspired by Stefan</h3>
             <div className="footerc__socials">
               <a
                 aria-label="linkedin"
